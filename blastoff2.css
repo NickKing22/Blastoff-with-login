@@ -1,0 +1,83 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(spacepic4.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+
+
+.LaunchButton 
+        {
+            text-align: center;
+        }
+
+p
+    {
+        color: white;
+        text-align: center;
+        
+    }
+
+h1
+    {
+        color: white;
+        text-align: center;
+    }
+
+.pic
+    {
+        text-align: center;
+    }
+.UatPic
+    {
+        border-radius: 50%;
+    }
+
+.Cnumber 
+    {
+        color: red;
+        font-size: x-large;
+    }
+
+.chart
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+table
+    {
+    border-collapse: collapse;
+    
+}
+table th{
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 4px 30px 4px 8px;
+}
+
+table td{
+    border: 1px solid white;
+    padding: 4px 8px;
+    
+}
+
+table tr:nth-child(odd)
+    {
+        background-color:lightgrey;
+        color: black;
+    }   
+
+table tr:nth-child(even)
+    {
+        color: white;
+    }
+
+.SSB
+    {
+        text-align: center;
+    }
+

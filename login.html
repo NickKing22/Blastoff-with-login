@@ -1,0 +1,40 @@
+<!--Nicholas King-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The title tag defines what the tab name will display-->
+    <title>Space Login</title>
+    <!--This links the .css file-->
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <!--This links the .js file-->
+    <script src="login.js"></script>
+</head>
+<body>
+    <!--This div bracket creates the loginbox class that will be used in the .css file-->
+    <div class="loginbox">
+        <!--This is for the image-->
+        <img src="UATspaceLogo-2.jpg" class="avatar">
+            <!--This is the first header tag-->
+            <h1>Commander Login</h1>
+            <!--The form tag will tell the computer to display a fillable form-->
+            <form onsubmit="return false">
+                <!--This is the tag for the first name-->
+                <p>First Name</p>
+                <!--This input is used for the username block-->
+                <input id = "first" type="text" placeholder="Enter First Name"/>
+                <!--This is the tag for the last name-->
+                <p>Last Name</p>
+                <!--This is the last name input-->
+                <input id = "last" type="text" placeholder="Enter Last Name"/>
+                <!--This is the tag for the badge number-->
+                <p>Badge Number</p>
+                <!--This input is used for the badge id input-->
+                <input type="password" id="password" placeholder="Enter Badge ID"/>
+                <!--This input is used for the sudmit button-->
+                <input type="submit" value="Login" onclick="validate()"/>
+                <p id = "error"></p>
+            </form>
+    </div>
+    
+</body>
+</html>
